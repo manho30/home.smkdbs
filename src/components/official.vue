@@ -2,11 +2,11 @@
   <div class="grid grid-flow-col gap-2">
     <a href="/">
       <picture class="flex">
-        <img src="../assets/kpm.png" alt="" width="48" height="48" loading="eager" class="w-full dark:saturate-[90%] rounded-full w-[48px]">
+        <img src="../assets/kpm.png" alt="" width="48" height="48" loading="eager" class="w-full saturate-[90%] w-[48px]">
       </picture>
     </a>
     <div class="flex flex-col justify-center gap-1">
-      <div class="grid grid-flow-col items-center justify-start gap-1 dark:text-white">
+      <div class="grid grid-flow-col items-center justify-start gap-1">
         <a href="/">
           <h1 class="text-lg text-black font-extrabold leading-5">
             SMK DATO BIJAYA SETIA
