@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gray-100 px-5 bg-white">
-    <div class="container p-5 bg-white">
+  <div class="flex justify-center bg-gray-100 bg-white">
+    <div class="container bg-white sm:px-0 md:py-10 px-10 lg:py-20 px-20">
       <div class="relative">
         <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
           <div
@@ -13,7 +13,8 @@
             <img :src="image" class="block w-full" alt="slideshow image" />
           </div>
         </div>
-      </div>    </div>
+      </div>
+    </div>
   </div>
 </template>
 
