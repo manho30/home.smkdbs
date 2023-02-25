@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-gray-100 py-5 pb-8">
+  <div class="bg-white py-5 pb-8">
     <div class="container mx-auto px-4 pt-3">
-      <h2 class="text-4xl font-extrabold mb-4">Recent Event</h2>
-      <ol class="relative border-l-2 border-gray-300">
+      <h2 class="text-2xl font-extrabold mb-4">Recent Event</h2>
+      <ol class="ml-1 relative border-l-2 border-gray-300">
         <li v-for="(event, index) in events" :key="index" class="mt-3 mb-10 ml-6 border-solid rounded-md p-4 hover:shadow-lg cursor-pointer">
           <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
             <svg aria-hidden="true" class="w-3 h-3 text-blue-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

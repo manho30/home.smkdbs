@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-gray-100 py-4 pb-8">
+  <div class="bg-white py-4 pb-8">
     <div class="container mx-auto px-4 pt-3">
-      <h2 class="text-3xl font-extrabold mb-4">Recent Announcements</h2>
+      <h2 class="text-2xl font-extrabold mb-4">Recent Announcements</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <div v-for="announcement in sortedAnnouncements" :key="announcement.title" class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg cursor-pointer" @click="goToAnnouncement(announcement)">
           <h3 class="text-lg font-bold mb-2">{{ announcement.title }}</h3>

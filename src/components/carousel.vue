@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center bg-gray-100 bg-white">
-    <div class="container bg-white sm:px-0 md:py-10 px-10 lg:py-20 px-20">
+    <div class="container bg-white sm:px-1 py-1 md:py-6 px-6 lg:py-15 px-15">
       <div class="relative">
         <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
           <div
