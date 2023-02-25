@@ -2,7 +2,7 @@
   <div class="grid grid-flow-col gap-2">
     <a href="/">
       <picture class="flex">
-        <img src="../assets/kpm.png" alt="" width="48" height="48" loading="eager" class="w-full saturate-[90%] w-[48px]">
+        <img src="../assets/kpm.png" alt="" width="48" height="48" loading="eager" class="saturate-[90%] w-[48px]">
       </picture>
     </a>
     <div class="flex flex-col justify-center gap-1">
